@@ -17,6 +17,36 @@ public class Main {
         // do while loop in place to ensure the game continues to run until an N is received
         do {
 
+            // clear out player one's move to ensure new entry can be read
+            playerOneMove = "";
+
+            // loops while player one does not input a valid move
+            while (!(playerOneMove.equalsIgnoreCase("R") || playerOneMove.equalsIgnoreCase("P") || playerOneMove.equalsIgnoreCase("S"))) {
+                // output and obtain user input for player one move
+                System.out.println("Welcome! Player One, please enter your move (R, P, S) or (r, p, s): ");
+                playerOneMove = playerOne.nextLine();
+                // checks for valid input from player one
+                if (!(playerOneMove.equalsIgnoreCase("R") || playerOneMove.equalsIgnoreCase("P") || playerOneMove.equalsIgnoreCase("S"))) {
+                    System.out.println("Player One, you entered your move as: " + playerOneMove);
+                    System.out.println("Please reenter your move, inputting R, P, or S");
+                }
+            }
+
+            // clear out player two's move to ensure new entry can be read
+            playerTwoMove = "";
+
+            // loops while player one does not input a valid move
+            while (!(playerTwoMove.equalsIgnoreCase("R") || playerTwoMove.equalsIgnoreCase("P") || playerTwoMove.equalsIgnoreCase("S"))) {
+                // output and obtain user input for player one move
+                System.out.println("Player Two, please enter your move (R, P, S) or (r, p, s): ");
+                playerTwoMove = playerTwo.nextLine();
+                // checks for valid input from player one
+                if (!(playerTwoMove.equalsIgnoreCase("R") || playerTwoMove.equalsIgnoreCase("P") || playerTwoMove.equalsIgnoreCase("S"))) {
+                    System.out.println("Player Two, you entered your move as: " + playerTwoMove);
+                    System.out.println("Please reenter your move, inputting R, P, or S");
+                }
+            }
+
             // clears user input for playing again to ensure another response can be received
             playAgainInput = "";
 
