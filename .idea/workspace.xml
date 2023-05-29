@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07f69ec0-48b5-46c3-a8df-ef7800de6d5a" name="Changes" comment="Added do-while loop for playing again">
+    <list default="true" id="07f69ec0-48b5-46c3-a8df-ef7800de6d5a" name="Changes" comment="Added user inputs with safeguards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ass01_RockPaperScissors/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ass01_RockPaperScissors/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,15 +26,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/apmar/IdeaProjects/Ass01_RockPaperScissors",
-    "onboarding.tips.debug.path": "C:/Users/apmar/IdeaProjects/Ass01_RockPaperScissors/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/apmar/IdeaProjects/Ass01_RockPaperScissors&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/apmar/IdeaProjects/Ass01_RockPaperScissors/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685315125888</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added user inputs with safeguards">
+      <created>1685316171588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685316171588</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +82,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project init" />
     <MESSAGE value="Added do-while loop for playing again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added do-while loop for playing again" />
+    <MESSAGE value="Added user inputs with safeguards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user inputs with safeguards" />
   </component>
 </project>

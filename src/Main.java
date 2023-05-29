@@ -47,6 +47,42 @@ public class Main {
                 }
             }
 
+            // compare the two inputs/move to see who wins
+            // outputs the tie if the two inputs are the same
+            if (playerOneMove.equalsIgnoreCase(playerTwoMove)) {
+                System.out.println("Player One and Player Two tied with " + playerOneMove + " and " + playerTwoMove);
+            } else {
+                // checks for first player move first
+                if (playerOneMove.equalsIgnoreCase("R")) {
+                    // if player one plays rock, second player move is checked
+                    if (playerTwoMove.equalsIgnoreCase("P")) {
+                        // paper beats rock, player two wins
+                        System.out.println("Paper covers rock! Player Two Wins.");
+                    } else {
+                        // rock beats scissors, player one wins
+                        System.out.println("Rock crushes scissors! Player One Wins.");
+                    }
+                } else if (playerOneMove.equalsIgnoreCase("P")) {
+                    // if player one plays paper, second player is checked
+                    if (playerTwoMove.equalsIgnoreCase("R")) {
+                        // paper covers rock, player one wins
+                        System.out.println("Paper covers rock! Player One Wins.");
+                    } else {
+                        // scissors beats paper, player two wins
+                        System.out.println("Scissors cuts paper! Player Two Wins.");
+                    }
+                } else {
+                    // player one plays scissors, checks player two play
+                    if (playerTwoMove.equalsIgnoreCase("R")) {
+                        // rock crushes scissors, player two wins
+                        System.out.println("Rock crushes scissors! Player Two Wins.");
+                    } else {
+                        // Scissors cuts paper, player one wins
+                        System.out.println("Scissors cuts paper! Player One Wins.");
+                    }
+                }
+            }
+
             // clears user input for playing again to ensure another response can be received
             playAgainInput = "";
 
